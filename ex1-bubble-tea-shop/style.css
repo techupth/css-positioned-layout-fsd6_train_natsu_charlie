@@ -3,3 +3,24 @@ body {
 }
 
 /* Start coding here */
+.text-lower {
+  position: relative;
+  bottom: 40px;
+  padding-left: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.text-upper {
+  position: relative;
+  bottom: 320px;
+  left: 504px;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
