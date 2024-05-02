@@ -1,1 +1,96 @@
 /* Start coding here */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #3b3b3b;
+  padding: 0px 0px 0px 10px;
+  display: flex;
+  justify-content: start;
+}
+.text-header {
+  font-size: 24px;
+  color: white;
+}
+.chat-container {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  position: relative;
+}
+
+.right-chat {
+  position: absolute;
+  right: 0px;
+}
+.left-chat {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+.chat-1st,
+.chat-3rd {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background: #00b900;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-2nd {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background: #c0c2c0;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.delete-mark {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  background-color: darkgray;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.chat-4th,
+.chat-5th {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgb(137, 137, 137);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tail-chat {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  right: -1px;
+  top: 0px;
+  box-shadow: inset 4px 5px 0px 2px #00b900;
+  transform: rotate(180deg);
+}
